@@ -1,4 +1,4 @@
-# @uniswap/snapshot-gas-cost
+# SwifyDex-snapshot-gas-cost
 
 Tiny utility function for snapshotting gas costs in unit tests.
 
@@ -10,7 +10,7 @@ commit to your repository.
 ## Usage
 
 ```typescript
-import snapshotGasCost from '@uniswap/snapshot-gas-cost'
+import snapshotGasCost from 'swifydex-snapshot-gas-cost'
 import {Contract} from "@ethersproject/contracts";
 
 describe('gas tests', () => {
